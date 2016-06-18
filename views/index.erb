@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <ul>
+      <% @heroes.each do |heroe| %>
+      <li>
+        <a href="/heroes/<%=heroe.id%>"><%= heroe.nombre %></a>
+      </li>
+      <% end %>
+    </ul>
+    <a href="/heroes/new">agregar nuevo heroe</a>
+  </body>
+</html>
