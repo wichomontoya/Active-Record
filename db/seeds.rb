@@ -1,0 +1,1 @@
+Heroe.create({nombre: "Deadpool", nivel_de_poder: 20000})
